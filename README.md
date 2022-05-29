@@ -38,6 +38,6 @@ the multithread for synchronization.
 
 **Side note on the Signalling** 
 
-On a aftermath thought I did come to conclusion that SIGSTOP and SIGCONT would have been the more elegent solution.
+On aftermath, I did come to conclusion that SIGSTOP and SIGCONT would have been the more elegent solution.
 https://major.io/2009/06/15/two-great-signals-sigstop-and-sigcont/
 Nice article.
