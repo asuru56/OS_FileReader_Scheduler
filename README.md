@@ -24,10 +24,10 @@ most cases(pursuing the txt files), the single threaded solution works, this mig
 
 File Locking followed by the filesystem or because of us using a HDD to read from.
 
-“It is never a good idea to read from the same physical (spinning) hard disk from
+**“It is never a good idea to read from the same physical (spinning) hard disk from
 different threads simultaneously, because every switch causes an extra delay of around
 10ms to position the read head of the hard disk (would be different on SSD)” ~
-Souced(StackOverflow)
+Souced(StackOverflow)**
 
 Also you can see a significant difference in speed in bigger files when using threads. As the
 10ms delay mentioned above is small comparatively.
