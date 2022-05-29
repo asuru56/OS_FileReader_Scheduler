@@ -35,3 +35,9 @@ But as we look into P2. The process is significantly faster than P1. This is due
 processing the data that is being sent to it and it does not have to go through the hassle of the
 HDD. Albeit even there a single thread is faster due to use of mutex lock on the sum integer on
 the multithread for synchronization.
+
+**Side note on the Signalling** 
+
+On a aftermath thought I did come to conclusion that SIGSTOP and SIGCONT would have been the more elegent solution.
+https://major.io/2009/06/15/two-great-signals-sigstop-and-sigcont/
+Nice ^ article.
